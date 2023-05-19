@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Captcha Generator</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Captcha Generator</h1>
+        </header>
+
+        <div class="input_field captch_box">
+            <input type="text" value="a 4 z 4 x" disabled>
+
+
+           <button id="btnRef" type="submit" class="button_ref">
+                <i class="fa-solid fa-rotate-right"></i>
+            </button>
+
+        </div>
+        <div class="input_field captch_input">
+            <input type="text" value="a 4 z 4 x" required>
+        </div>
+
+        <div id="messageLog" class="message">Entered captcha is correctt</div>
+        <div class="input_field button">
+            <button id="sendButton" type="submit">Submit Captcha</button>
+        </div>
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
